@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    height: 200px;
+    background-color: #D2B48C;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_nav{
+    width: 400px;
+    color: #fff;
+    margin-left: 300px;
+    position: relative;
+}
+.seoul {
+    color: #ADD8E6;
+    font-weight: bold; 
+    font-size: 30px;
+}
+
+/* header-nav btn */
+.btn{
+    font-weight: bold;
+}
+.other-location{
+  position: absolute;
+   left:-100px;
+   height: 30px;
+   width: 150px;
+   border-radius: 10px;
+   border: 0px;
+   background-color: #ADD8E6;
+}
+.current-location{
+    position: absolute;
+    left:100px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #90EE90; 
+}

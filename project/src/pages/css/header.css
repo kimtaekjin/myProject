@@ -1,0 +1,39 @@
+.black-nav{
+    font-family:'nanumsquare';
+    background: black;
+    width: 100%;
+    display: flex;
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+  }
+  .menu{
+    position: absolute;
+    left: 350px;
+    display: flex;
+  }
+  .header-list{
+    margin-left: 50px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  .header-list:hover{
+   color: #ccc;
+  }
+
+  .login{
+    width: 90px;
+    position: absolute;
+    left: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  .login:hover{
+    color: #ccc;
+  }
+  
