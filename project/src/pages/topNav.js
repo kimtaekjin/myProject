@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/main.css'
 
-const main = () => {
+const top_nav = () => {
   return (
   <div className='container'>
     <div className='top_nav'>
