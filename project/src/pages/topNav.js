@@ -1,12 +1,14 @@
 import React from 'react'
-import './css/main.css'
+import './css/topNav.css'
 
-const top_nav = () => {
+const topNav = () => {
   return (
   <div className='container'>
     <div className='top_nav'>
          <h3 style={{ marginLeft: '1em' }}>당신을 위한</h3>
-        <h4><span class="seoul">서울</span> 추천 카페</h4>
+         <h4 style={{ marginTop: '-10px' }}>
+          <span className="seoul">서울</span> 추천 카페
+          </h4>
         <button className='other-location btn'>
         다른 지역 선택
         </button>
@@ -18,4 +20,4 @@ const top_nav = () => {
   )
 }
 
-export default main
+export default topNav

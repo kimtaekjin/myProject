@@ -1,13 +1,14 @@
 .black-nav{
     font-family:'nanumsquare';
     background: black;
-    width: 100%;
+    width: 1220px;
     display: flex;
     color: white;
     padding: 20px;
     font-weight: 600;
     font-size: 20px;
     position: relative;
+    overflow: hidden;
   }
   .menu{
     position: absolute;

@@ -1,44 +1,108 @@
-.container{
+.main{
     width: 100%;
-    height: 200px;
-    background-color: #D2B48C;
-    margin-top: -20px;
+    height: auto;
+    background:#fff;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+.search{
+display: flex;
+align-items: center;
+justify-content: center;    
+width: 400px;
+height: 35px;
+margin: 30px;
+margin-left: 100px;
+border: 1px solid black;
+border-radius: 10px;
+
+}
+.caffeeInput{
+    width:350px ;
+    border:none;
+    height: 25px;
+
+}
+.search-btn{
+    background: none;
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
 }
 
-.top_nav{
-    width: 400px;
-    color: #fff;
-    margin-left: 300px;
+.search-btn img{
+    width: 25px;
+    height: 24px;
+    background-color: transparent; 
+}
+
+/* main-item */
+
+.contents{
+    background: rgba(204, 204, 204, 0.5);
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
     position: relative;
+    left:280px;
+    margin: 20px;  
 }
-.seoul {
-    color: #ADD8E6;
-    font-weight: bold; 
-    font-size: 30px;
+.content-header{
+    display: flex;
+    justify-content:space-between;
+    background-color: #D3D3D3;
+    border-top-left-radius: 20px; /* 왼쪽 위 모서리 둥글게 */
+    border-top-right-radius: 20px; /* 오른쪽 위 모서리 둥글게 */
+}
+.content-header div{
+    margin: 10px;
+}
+.content-header button{
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 30px;
+    width: 120px;
+    cursor: pointer;
 }
 
-/* header-nav btn */
-.btn{
-    font-weight: bold;
+.content-main{
+    width: 250px;
+    background-color: blue;
+    height: 190px;
+    margin: 15px;
+    overflow: hidden;
 }
-.other-location{
-  position: absolute;
-   left:-100px;
-   height: 30px;
-   width: 150px;
-   border-radius: 10px;
-   border: 0px;
-   background-color: #ADD8E6;
+
+.content-explanation{
+   width: 100px;
+   margin: 15px;
+   font-weight: bold;
 }
-.current-location{
+
+.slide-btn1{
+    width: 40px;
+    height:40px;
     position: absolute;
-    left:100px;
-    height: 30px;
-    width: 150px;
-    border-radius: 10px;
-    border: 0px;
-    background-color: #90EE90; 
+    left: 180px;
+    top:130px;
+}
+
+.slide-btn1 img{
+    width: 40px;
+    height: 40px;
+    transform: scaleX(-1); 
+}
+
+.slide-btn2{
+    width: 40px;
+    height:40px;
+    position: absolute;
+    right: 140px;
+    top: 130px;
+}
+
+.slide-btn2 img{
+    width: 40px;
+    height: 40px;
 }
